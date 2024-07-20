@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="334.0" prefWidth="339.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="task.hospital.AddSpecialization">
+   <children>
+      <Pane layoutX="-4.0" layoutY="-1.0" prefHeight="58.0" prefWidth="346.0" style="-fx-background-color: #34B9FB;" />
+      <TextField fx:id="name" layoutX="82.0" layoutY="131.0" prefHeight="35.0" prefWidth="175.0" promptText="name" style="-fx-background-color: transparent; -fx-border-color: #34B9FB; -fx-border-width: 0px 0px 2px 0px;" />
+      <Button fx:id="addBtn" layoutX="104.0" layoutY="240.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="130.0" style="-fx-background-color: #34B9FB;" text="Add" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
